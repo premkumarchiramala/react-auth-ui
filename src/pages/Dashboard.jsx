@@ -15,7 +15,7 @@ function Dashboard() {
         localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/auth/profile",
+        "https://react-auth-ui-1.onrender.com/api/auth/profile",
         {
           headers: {
             authorization: token,
